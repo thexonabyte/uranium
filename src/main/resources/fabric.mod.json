@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "uranium",
+	"version": "${version}",
+	"name": "uranium",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"xonabyte"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/uranium/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.xonabyte.uranium.Uranium"
+		],
+		"client": [
+			"me.xonabyte.uranium.UraniumClient"
+		],
+		"fabric-datagen": [
+			"me.xonabyte.uranium.UraniumDataGenerator"
+		]
+	},
+	"mixins": [
+		"uranium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
