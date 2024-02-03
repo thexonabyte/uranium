@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "uranium",
 	"version": "${version}",
-	"name": "uranium",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Uranium",
+	"description": "This mods adds Uranium to minecraft! ",
 	"authors": [
-		"xonabyte"
+		"Xonabyte"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
